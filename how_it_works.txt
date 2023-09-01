@@ -1,0 +1,11 @@
+we choose three prime numbers, two first will be use to encrypt the message but in order to decrypt we will use the second number in the first pair.
+It works like this:
+* The first pair we use its first number and make it to the power of the character we want to encrypt and the resukt is modulused (answer modulus) the second number in the pair.
+* To de crypt we repeat the stage above but, we use the first number in the second pair instead the first number in the first pair. and round off to the nearest number.
+
+The first number in the first pair is choosen randomly but there is a way to follow in order to find the prime number that can decypher it. Which is as follows:
+1. Pick two prime numbers .
+2. Find their product.
+3. Find the product's coprime (Numbers which are less or equal to the product but have no common factor) done by using a formula (P-1) (Q-1) where p is the first prime number and q is the second prime number
+4. choose a new number but (is in between 1 and the coprime, and secondly coprime with the product and the coprime of the product) this give the encryption number
+5. choose a number such that multiplied by the (4*) and modulused the coprime in 1
