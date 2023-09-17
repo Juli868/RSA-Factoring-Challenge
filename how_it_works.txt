@@ -1,3 +1,18 @@
+in the prgram that generates the prime numbers, what if we check the factrs of a number as we g ang finding the prime numbers, that means we find the first prime number and check if it's a factor of the given number, but before we look if the number already has the factor in the pre found prime numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 we choose three prime numbers, two first will be use to encrypt the message but in order to decrypt we will use the second number in the first pair.
 It works like this:
 * The first pair we use its first number and make it to the power of the character we want to encrypt and the resukt is modulused (answer modulus) the second number in the pair.
